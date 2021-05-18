@@ -1,5 +1,5 @@
 import "./App.scss";
-import ReduxMain from "./components/ReduxMain";
+import ReduxMain from "./container/ContainerIndex";
 function App() {
   return (
     <div className="App">

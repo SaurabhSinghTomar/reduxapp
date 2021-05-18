@@ -1,11 +1,12 @@
 import React from "react";
 
-const User = (data) => {
+const User = (props) => {
+  console.log(props);
   return (
     <div>
       hi
-      <h3>{data.name}</h3>
-      <h3>{data.town}</h3>
+      <h3>{props.data.name}</h3>
+      <h3>{props.data.town}</h3>
     </div>
   );
 };
