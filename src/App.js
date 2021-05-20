@@ -1,9 +1,11 @@
 import "./App.scss";
-import ReduxMain from "./container/ContainerIndex";
+import ContainerIndex from "./container/ContainerIndex";
+import Header from "./container/HeaderContainer";
 function App() {
   return (
     <div className="App">
-      <ReduxMain />
+      <Header />
+      <ContainerIndex />
     </div>
   );
 }
