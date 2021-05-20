@@ -12,10 +12,8 @@ export default function Items(state = [], action) {
       return [...state, { cardData: action.data }];
 
     case REMOVE_FROM_CART:
-      state.splice();
-      return {
-        ...state,
-      };
+      state.pop();
+      return [...state];
 
     default:
       return state;
